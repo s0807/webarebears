@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="mcssam">
+    <meta name="description" content="Portfolio, Float, We Bare Bears Template, Pixel Fixed">
+    <title>We Bare Bears</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/favicon/wbb_fav32.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon/wbb_fav144.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <!-- 페이지 CSS -->
+    <link rel="stylesheet" href="./css/weBareBears.css">
+    <!-- JS 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <!-- 페이지 JS -->
+    <script src="./js/weBareBears.js"></script>   
+</head>
+<body>
+    <div id="wrap">
+        <!-- Header -->
+        <header>
+            <div class="w1280 cf">
+                <!-- Logo, GNB -->
+                <div class="logo_gnb_left">
+                    <h1 class="logo"><a href="#"><img src="./images/wbb_logo.png" alt="위베베 로고"></a></h1>
+                    <nav>
+                        <ul class="gnb">
+                            <li><a href="#" onclick="return false;">Home</a></li>
+                            <li><a href="#" onclick="return false;">Explore</a></li>
+                            <li><a href="#" onclick="return false;">World</a></li>
+                            <li><a href="#" onclick="return false;">Media</a></li>
+                            <li><a href="#" onclick="return false;">Music</a></li>
+                            <li><a href="#" onclick="return false;">Community</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- /Logo, GNB -->
+                <!-- Search Btn -->
+                <div class="search">
+                    <a href="#" onclick="return false;"><img src="./images/btn_search.png" alt="검색아이콘"></a>
+                </div>
+                <!-- /Search Btn -->
+            </div>
+            <!-- ImageText Deco -->
+            <div class="w1280 img_deco">
+                <h2>
+                    <img src="./images/wbb_title.png" alt="위베베 타이틀">
+                </h2>
+                </h2>
+                <p>
+                    <br>
+                    곰삼형제의 특별한 이야기!
+                </p>
+                <p>
+                    <button><a href="#" onclick="return false;">GO TO SHOW</a></button>
+                </p>
+            </div>
+            <!-- /Image Text Deco -->
+        </header>
+        <!-- /Header -->
+
+        <!-- Section CardBox -->
+        <section class="card_box">
+            <div class="w1280 cf">
+                <!-- 3단 CardBox -->
+                <div class="card_box_view">
+                    <h2><a href="#" onclick="return false;"><img src="./images/wbb_movie01.jpg" alt="위베베 영화1"></a></h2>
+                </div>
+                <div class="card_box_view">
+                    <h2><a href="#" onclick="return false;"><img src="./images/wbb_movie02.jpg" alt="위베베 영화2"></a></h2>
+                </div>
+                <div class="card_box_view no_mr">
+                    <h2><a href="#" onclick="return false;"><img src="./images/wbb_movie03.jpg" alt="위베베 영화3"></a></h2>
+                </div>
+                <!-- /3단 CardBox -->
+                <!-- CardBox Text -->
+                <div class="card_box_info cf">
+                    <h2>We Bare Bears: <span>Movie</span></h2>
+                    <p>
+                        <a href="#" onclick="return false;">VIEW ALL MOVIES <img src="./images/arrow_silver.png" alt="링크화살표"></a>
+                    </p>
+                </div>
+                <!-- /CardBox Text -->
+            </div>
+        </section>
+        <!-- /Section CardBox -->
+
+        <!-- Section ABOUTUS -->
+        <section class="about_us w1280">
+            <h2 class="about_us_text">
+                인간 세상에서 인간들과 어울려 살려는 곰 삼 형제<br>
+                그리즐리, 판다, 아이스베어의 이야기를 그린 코미디 애니메이션
+            </h2>
+            <div class="line"></div>
+            <div class="about_us_tab cf">
+                <div class="about_us_left">
+                    <h3>ABOUT US</h3>
+                    <ul class="cf">
+                        <li><button id="grizzly" onclick="change01()">Grizzly Bear</button></li>
+                        <li><button id="panda" onclick="change02()">Panda Bear</button></li>
+                        <li><button id="ice" onclick="change03()">Ice Bear</button></li>
+                    </ul>
+                    <hr>
+                    <div id="grizzly_o"> </div>
+                    <div id="panda_o"> </div>
+                    <div id="ice_o"> </div>
+                    <h4>
+                        이 작품의 주인공들이며,<br>
+                        캘리포니아 북부 샌프란시스코 베이 에어리어에 사는 곰 형제.<br>
+                        분명 곰이지만 포악성을 잃어버리고 인간 생활에 100% 적응한 곰들로,<br>
+                        하루 종일 귀여운 동물 영상 보는 데 시간을 허비하거나,<br>
+                        맘에 안 드는 음식을 SNS에 악평을 남기고 정크 푸드먹고 몸에 병이 나는 등,<br>
+                        인터넷에 중독된 현대인의 모습이 반영되어 있다.<br>
+                        <br>
+                        아기 때부터 동고동락한 사이이며,<br>
+                        친형제 사이는 아니지만 거의 가족이나 다름이 없으며<br>
+                        서로 아끼고 사랑한다.<br>
+                    </h4>
+                    <h5>
+                        <a href="#">VIEW ALL ABOUT US <img src="./images/arrow_silver.png" alt="화살표"></a>
+                    </h5>
+                </div>
+                <div class="about_us_right">
+                    <ul>
+                        <li><img src="./images/grizzly01.jpg" alt="위베베 등장인물" id="bear1"></li>
+                        <li><img src="./images/grizzly02.jpg" alt="위베베 등장인물" id="bear2"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- /Section ABOUTUS -->
+
+        <!-- Article MOV -->
+        <article class="mov">
+            <h2 class="video">
+                <figure>
+                    <iframe width="1060" height="560" src="https://www.youtube.com/embed/bwRqdMrz2O4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+            </h2>
+        </article>
+        <!-- /Article MOV -->
+
+        <!-- Section WHY -->
+        <section class="why w1280 cf">
+            <div class="why_left">
+                <img src="./images/wbb_hi.jpg" alt="위베베">
+            </div>
+            <div class="why_right">
+                <h3>SYNOPSIS</h3>
+                <p>
+                    복잡한 도시에서 사람들과 어울리기 위해 애쓰는 곰 삼형제의 배꼽 잡는 좌충우돌 도시 적응 대작전!<br>
+                    <br>
+                    털털하고 푸근한 넉살꾼 맏형 ‘그리즐리’<br>
+                    소심하고 예민하지만 사랑꾼 둘째 ‘판다’<br>
+                    묘한 매력의 만능재주꾼 막내 ‘아이스베어’<br>
+                    <br>
+                    형제애로 똘똘 뭉친 곰 브라더스에게 두려울 것은 없다!<br>
+                    <br>
+                    친구를 사귈 수만 있다면 언제나 어디에서든 새로운 모험 속으로 뛰어들 준비가 되어 있으니까!<br>
+                    궁금한 것도, 신기한 것도 너~무 많은 베이비 베어스의 좌충우돌 도시 이야기!<br>
+                    <br>
+                    아이스크림에 눈이 번쩍곰!<br>
+                    위험에 처한 친구에겐 든든곰!<br>
+                    빨리 어른이 되고 싶은 베이비곰!<br>
+                    <br>
+                    매력만점 곰 삼형제 ‘그리즐리’, ‘판다’, ‘아이스베어’. 우리랑 함께라면 심심할 날이 없을거라곰~<br>
+                </p>
+                <h5>
+                    <a href="#" onclick="return false;">VIEW ALL SYNOPSIS <img src="./images/arrow_silver.png" alt="화살표"></a>
+                </h5>
+            </div>
+        </section>
+        <!-- /Section WHY -->
+
+        <!-- Section FAQ -->
+        <section class="faq_saying">
+            <div class="faq_people w1280 cf">
+                <div class="faq_left">
+                    <h3>WE BARE BEARS</h3>
+                    <div>
+                        <button id="infoBtn01" onclick="clickInfo01()">위 베어 베어스: 장르&nbsp;&nbsp;+</button>
+                        <div id="info01">
+                            코디미, 시트콤, 일상, 어드벤처
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <button id="InfoBtn02" onclick="clickInfo02()">위 베어 베어스: 원작/감독&nbsp;&nbsp;+</button>
+                        <div id="info02">
+                            원작 : 대니얼 총 <br>
+                            감독 : 토니 푸햄, 매니 아르난데스
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <button id="InfoBtn03" onclick="clickInfo03()">위 베어 베어스: 총괄 프로듀서/프로듀서&nbsp;&nbsp;+</button>
+                        <div id="info03">                            	
+                            총괄 프로듀서 : 대니얼 총, 커티스 릴라쉬, 제니퍼 펠프리, 브라이언 A. 밀러, 롭 소처<br>
+                            프로듀서 : 	캐리 윌크슨, 랜디 마이어스
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <button id="InfoBtn04" onclick="clickInfo04()">위 베어 베어스: 방영기간&nbsp;&nbsp;+</button>
+                        <div id="info04">                            	
+                            2015년 7월 27일 ~ 2019년 5월 27일
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="faq_right">
+                    <h3>WBB</h3>
+                    <ul>
+                        <li><img src="./images/cn.png" alt="카툰네크워크"><span>애니메이션 제작</span></li>
+                        <li>
+                            &nbsp;카툰네트워크<br>
+                            &nbsp;(CARTOON NETWORK)
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><img src="./images/cns.png" alt="카툰네크워크 스튜디오"><span>제작</spa></li>
+                        <li>
+                            &nbsp;카툰네트워크 스튜디오<br>
+                            &nbsp;(Cartoon Network Studios)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- /Section FAQ -->
+
+        <!-- Aside Banner -->
+        <aside class="banner">
+            <div class="w1280 cf">
+                <img src="./images/wbb_banner.png" alt="위베베 배너">
+                <button><a href="#" onclick="return false;">GO TO SHOW</a></button>
+            </div>
+        </aside>
+        <!-- /Aside Banner -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="w1280">
+                <!-- Footer Logo, SNS -->
+                <dl class="footer_logo">
+                    <dt><img src="./images/wbb_footer.png" alt="위베베 푸터"></dt>
+                    <dd class="sns"><a href="#" onclick="return false;"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></dd>
+                    <dd class="sns"><a href="#" onclick="return false;"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></dd>
+                    <dd class="sns"><a href="#" onclick="return false;"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></dd>
+                </dl>
+                <!-- /Footer Logo, SNS -->
+                <!-- Footer Services -->
+                <dl class="footer_services">
+                    <dt>EXPLORE</dt>
+                    <dd><a href="#" onclick="return false;">Main&nbsp;Page</a></dd>
+                    <dd><a href="#" onclick="return false;">Discuss</a></dd>
+                    <dd><a href="#" onclick="return false;">All&nbsp;Pages</a></dd>
+                    <dd><a href="#" onclick="return false;">Community</a></dd>
+                    <dd><a href="#" onclick="return false;">Interactive&nbsp;Maps</a></dd>
+                    <dd><a href="#" onclick="return false;">Recent&nbsp;Blog&nbsp;Posts</a></dd>
+                </dl>
+                <!-- /Footer Services -->
+                <!-- Footer Assistance -->
+                <dl class="footer_assistance">
+                    <dt>MEDIA</dt>
+                    <dd><a href="#" onclick="return false;">We&nbsp;Bare&nbsp;Bears</a></dd>
+                    <dd><a href="#" onclick="return false;">Episodes</a></dd>
+                    <dd><a href="#" onclick="return false;">Music</a></dd>
+                    <dd><a href="#" onclick="return false;">Webcomic</a></dd>
+                    <dd><a href="#" onclick="return false;">Merchandise</a></dd>
+                    <dd><a href="#" onclick="return false;">Games</a></dd>
+                </dl>
+                <!-- /Footer Assistance -->
+                <!-- Footer About -->
+                <dl class="footer_about">
+                    <dt>WORLD</dt>
+                    <dd><a href="#" onclick="return false;">Characters</a></dd>
+                    <dd><a href="#" onclick="return false;">Locations</a></dd>
+                    <dd><a href="#" onclick="return false;">Objects</a></dd>
+                </dl>
+                <!-- /Footer About -->
+
+                <!-- Copyright -->
+                <div class="copyright">
+                    <div class="copyright_line"></div>
+                        <p>
+                            &copy; 2022 We Bare Bears
+                        </p>
+                </div>
+                <!-- /Copyright -->
+            </div>
+        </footer>
+        <!-- /Footer -->
+    </div>
+</body>
+</html>
