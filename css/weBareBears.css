@@ -424,6 +424,10 @@ footer {
 
 }
 
+.footer .footer_logo .sns i:hover {
+    color: #da5c45;
+}
+
 /* Footer Service */
 .footer .footer_services {
     width: 330px;
@@ -506,10 +510,3 @@ footer {
     clear: both;
 }
 
-
-
-
-
-.faq_left #faq01 .info01 .ative {
-    display: block;
-}
